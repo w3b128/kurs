@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <title></title>
+  <script type="text/javascript">
+    var arr_en = ["White", "Black", "Red"];
+    var arr_ru = ["Белый", "Черный", "Красный"];
+    function en_to_ru(b) {
+      var b = document.getElementById("en").value;
+      for (var i = 0; i < arr_ru.length; i++) {
+        if (arr_ru[i] == b) document.getElementById("res_ru").innerHTML = arr_en[i];
+
+      }
+    }
+  </script>
+
+</head>
+  <body>
+
+    <h3>С Русского на Английский</h3> <h4 class="words">Cлова на русском :  Белый, Красный, Черный</h4>
+    <input type="text" id="en" placeholder="Текст">
+    <br>
+    <br>
+    <output id="res_ru"></output>
+    <br>
+    <br>
+    <input type="button" value="Перевести на английский" onclick="en_to_ru()">
+    <br>
+
+
+    <br>
+  </body>
+</html>

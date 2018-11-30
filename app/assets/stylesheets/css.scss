@@ -1,0 +1,50 @@
+body {
+  background-color: gainsboro;
+  color: #444;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+p, {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 23px;
+  line-height: 18px;
+}
+
+
+a {
+  color: gainsboro;
+
+  &:visited {
+    color: gainsboro;
+  }
+
+  &:hover {
+    color: gainsboro;
+    background-color: #000;
+  }
+}
+
+
+  .re {
+    position: relative;
+    left: 20px;
+  }
+
+  .er {
+    position: relative;
+    left: 30px;
+    color: gainsboro;
+  }
+
+  .ree{
+    position: relative;
+    top: 40px;
+  }
+
+  .words {
+    position: relative;
+    left: 500px;
+  }
